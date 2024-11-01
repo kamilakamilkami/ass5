@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h2>Ex1</h2>
+        <label> Your numbers</label>
+        <input type="number" id = "num1">
+        <input type="number" id = "num2">
+        <input type="number" id = "num3">
+        <br>
+        <br>
+
+        <button onclick="findF()">farthest</button>
+        <button onclick="findN()">nearest</button>
+    </div>
+    <p id ="n"></p>
+    <p id="f"></p>
+
+    <div>
+        <h2>Ex2</h2>
+        <label>Enter a sentence</label>
+        <input type="text" id = "sentence">
+        <br>
+        <br>
+        <button onclick="alphabet()">Sort letters in each word</button>
+        
+    </div>
+    <p id="order"></p>
+
+    <div>
+        <h2>Ex3</h2>
+        <label>Enter words</label>
+        <input type="text" id = "lol">
+        <br>
+        <br>
+        <button onclick="firstNonRepeatedCharacter()">Find non-repeated word</button>
+    </div>
+    <p id = "res"></p>
+
+    <div>
+        <h2>Ex4</h2>
+        <label>Enter words</label>
+        <input type="text" id = "inputstr">
+        <br>
+        <br>
+        <button onclick="replaceCharacters()">Replace</button>
+    </div>
+    <p id="rs"></p>
+
+    <div>
+        <h2>Ex5</h2>
+        <label>Enter 3 words</label>
+        <input type="text" id="word1">
+        <input type="text" id="word2">
+        <input type="text" id="word3">
+        <br>
+        <br>
+        <button onclick="LongestAndShortest()">Click</button>
+    </div>
+    <p id="furry"></p>
+    <p id="zesty"></p>
+
+    <div>
+        <h2>Ex6</h2>
+        <p id="pdd">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.</p>
+        <button onclick="highlight()">Highlight</button>
+    </div>
+
+    <div>
+        <h2>Ex7</h2>
+        <p id = "p">Wow! Can you believe it? The sky was glowing in shades of pink and purple! Was it real? It felt like a dream! How could something be so beautiful? And just like that, it was gone! Unbelievable, right?! What's next? Can we see it again?!</p>
+        <button onclick="replace()">Click</button>
+    </div>
+
+    <div>
+        <h2>Ex8</h2>
+        <p id="pp">This is the first sentence. Here’s the second one! Is this the third one? Yes, it is</p>
+        <button onclick="split()">Split</button>
+    </div>
+
+    <div>
+        <h2>Ex9</h2>
+        <p id = "ppp">This is an example paragraph to count the words.</p>
+        <button onclick="countWords()">Count</button>
+    </div>
+
+    <div>
+        <h2>Ex10</h2>
+        <p id="lorem">Lorem ipsum dolor sit amet, adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquam arcu ante, aliquet eget sapien ut, accumsan blandit.</p>
+        <button onclick="highlightWords()">Click</button>
+    </div>
+
+    <div>
+        <h2>Ex11</h2>
+        <p>Find the volume of a sphere:</p>
+        <label>Radius:</label>
+        <input type="number" id="radius" step="any">
+        <br><br>
+        <label>Volume:</label>
+        <input type="text" id="volume" value="0.0000" readonly>
+        <br><br>
+        <button type="button" onclick="calculateVolume()">Calculate</button>
+    </div>
+
+    
+    <div>
+        <h2>Ex12</h2>
+        <p>Find the volume of a cylinder:</p>
+        <label>Radius:</label>
+        <input type="number" id="radius1" step="any">
+        <br><br>
+        <label for="height">Height:</label>
+        <input type="number" id="height" step="any">
+        <br><br>
+        <label>Volume:</label>
+        <input type="text" id="volume1" value="0.0000" readonly>
+        <br><br>
+        <button type="button" onclick="calculateCylinder()">Calc</button>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
